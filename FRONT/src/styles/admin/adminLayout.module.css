@@ -1,0 +1,15 @@
+.adminLayout {
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentLayout{
+    max-height: 100vh;
+    overflow-y: scroll;
+}

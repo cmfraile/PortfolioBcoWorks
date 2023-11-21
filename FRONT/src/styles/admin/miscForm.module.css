@@ -1,0 +1,23 @@
+.color{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.uploader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0px;
+}
+
+.uploader > img {
+    padding: 5px;
+}
+
+.isOpenSwitch{
+    max-width: 300px;
+}

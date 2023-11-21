@@ -1,0 +1,20 @@
+.definedGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+}
+
+.definedThumb{
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 10px 0px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.definedThumb > p {
+    max-width: 100%
+}

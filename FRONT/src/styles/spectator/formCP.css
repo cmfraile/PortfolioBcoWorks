@@ -1,0 +1,79 @@
+.root_contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.root_contacto form {
+  display: flex;
+  flex-direction: column;
+  max-width: 60%;
+  min-width: 60%;
+}
+
+.root_contacto form .formItem {
+  display: flex;
+  flex-direction: column;
+  min-width: 100%;
+  margin: 15px 0px;
+}
+
+.root_contacto form .formItem label {
+  font-weight: 700;
+  margin: 5px 0px;
+}
+
+.root_contacto form .formItem small {
+  min-height: 10px;
+  max-height: 10px;
+  margin: 5px 0px;
+  min-width: 100%;
+  color: red;
+  text-align: right;
+}
+
+.root_contacto form .formItem input,
+.root_contacto form .formItem textarea {
+  border: 2px solid black;
+  min-width: 100%;
+  background: transparent;
+  padding: 5px 30px;
+  border-radius: 5px;
+  outline: none;
+}
+
+.root_contacto form .formItem input {
+  min-height: 40px;
+  background-color: transparent
+}
+
+.root_contacto form .formItem textarea {
+  min-height: 250px;
+  resize: none;
+  background-color: transparent
+}
+
+.root_contacto form .submit {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.root_contacto form .submit button {
+  background: transparent;
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 5px 50px;
+  transition: all 0.5s ease;
+  background-color: transparent;
+  font-weight: 700;
+}
+
+.root_contacto form .submit button:disabled {
+  opacity: 0.2;
+}
+
+@media screen and (max-width: 600px){
+  .root_contacto > form { min-width: 90vw ; max-width: 90%; }
+}

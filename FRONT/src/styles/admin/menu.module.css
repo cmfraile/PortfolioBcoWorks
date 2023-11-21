@@ -1,0 +1,32 @@
+.menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+.logged{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logged > img {
+    width: 75px;
+    border-radius: 100%;
+    margin: 10px 0px;
+}
+
+.logged > p {
+    text-align: justify;
+}
+
+.menuButton{
+    min-width: 100%;
+    margin: 10px 0px;
+}
+
+.menuSection{
+    margin: 5vh 0px;
+}

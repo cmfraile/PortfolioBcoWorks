@@ -1,0 +1,37 @@
+.topAndBottom,.subBottom{
+    justify-content: space-around !important ;
+}
+.topAndBottom {
+    min-height: 12vh ;
+    max-height: 12vh ;
+}
+.midFragment {
+    min-height: 76vh ;
+    min-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0px;
+}
+.midCollection {
+    min-height: 76vh;
+    max-height: 76vh;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+.midCollection::-webkit-scrollbar{
+    background-color: transparent;
+    width: 0px;
+    height: 0px;
+}
+.spectatorContainer {
+    min-height: 100vh ;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0,0,0,0.3);
+    display: flex ;
+    flex-direction: column ;
+    justify-content: space-between ;
+    margin: 0px !important ; padding: 0px !important;
+}
+
+@media screen and (max-width: 600px){}

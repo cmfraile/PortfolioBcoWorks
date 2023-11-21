@@ -1,0 +1,31 @@
+.ledDiv{
+    min-height: 100%;
+    max-width: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.imgDiv{
+    max-width: 80% ;
+    cursor: pointer ;
+    opacity: 0.5;
+}
+.imgDiv:hover{
+    opacity: 1;
+}
+
+.selected{
+    max-width: 100%;
+    background-color: purple;
+}
+
+.active{
+    opacity: 1;
+}
+
+@media screen and (max-width: 600px){
+    .topAndBottom { min-height: 8vh ; max-height: 8vh ; }
+    .imgDiv { max-height: 8vh; }
+}

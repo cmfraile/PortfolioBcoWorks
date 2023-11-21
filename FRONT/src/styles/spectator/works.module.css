@@ -1,0 +1,84 @@
+.definedSection,.undefinedSection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin: 30px 0px;
+}
+
+.definedWork{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    max-width: 50vw;
+    min-width: 50vw;
+    margin: 30px 0px;
+    border-radius: 15px;
+    overflow: hidden !important
+}
+
+.definedWorkContent{
+    min-width: 75%;
+    min-height: 100%;
+    max-height: 100%;
+    margin: 0px ; padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title,.description,.linkText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.title,.linkText{
+    max-height: 30px;
+    min-height: 20%;
+}
+
+.title {
+    border-bottom: 2px solid;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px 15%;
+}
+
+.fungiLink {
+    max-width: 60px;
+    margin: 0px 20px;
+    cursor: pointer;
+    right: 0px;
+    bottom: 0px;
+}
+
+.description {
+    padding: 15px;
+    min-height: 80%;
+}
+
+.imgdiv{
+    min-height: 100% ;
+    min-width: 25% ;
+    min-height: 200px;
+    border-right: 2px solid;
+}
+
+.worksGroup{
+    flex-direction: column;
+}
+
+@media screen and (max-width: 1000px){
+    .imgdiv{ min-width: 15% !important ; ; max-width: 15% !important ; }
+    .definedWork{ min-width: 70vw ; max-width: 70vw ; }
+}
+@media screen and (max-width: 800px){
+    .definedWork{ min-height: 50vh ; min-width: 70vw; margin: 50px 0px; }
+    .title,.description{ min-height: 50px ; margin: 5px 0px ; padding: 10px !important; }
+    .description{ min-height: 90% ; flex-direction: column ; justify-content: flex-start; }
+    .imgdiv{ display: none !important; }
+    .fungiLink{ margin: 30px 0px ; min-width: 10vw ; min-width: 100px; }
+}
